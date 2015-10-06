@@ -3,7 +3,7 @@
 
 using namespace std;
 
-string ticboard[3][3] = { { "1", "2", "3" }, { "4", "5", "6" }, { "7", "8", "9" } };
+string TTT[3][3] = { { "1", "2", "3" }, { "4", "5", "6" }, { "7", "8", "9" } };
 string choice;
 
 void displayBoard();
@@ -23,5 +23,15 @@ int main(){
 }
 
 void displayBoard(){
-	cout << "   |   |" << endl;
+cout << TTT[0][0] << " | " << TTT[0][1] << " | " << TTT[0][2] << endl;
+
+	cout << "__|___|__" << endl;
+
+	cout << TTT[1][0] << " | " << TTT[1][1] << " | " << TTT[1][2] << endl;
+
+	cout << "__|___|__" << endl;
+
+	cout << TTT[2][0] << " | " << TTT[2][1] << " | " << TTT[2][2] << endl;
+
+	cout << " | | " << endl;
 }
