@@ -13,7 +13,7 @@ int main(){
 
 	string answer;
 
-	cout << "All shall return to the void...." << endl;
+	cout << "Hi, my name is jeff. All shall return to the void...." << endl;
 
 	do{
 		cin >> answer;
