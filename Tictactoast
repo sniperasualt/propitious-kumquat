@@ -13,7 +13,7 @@ int main(){
 
 	string answer;
 
-	cout << "Hi, my name is jeff. All shall return to the void...." << endl;
+	cout << "Play, you must, but lose, you will." << endl;
 
 }
 
