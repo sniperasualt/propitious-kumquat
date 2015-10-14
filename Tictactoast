@@ -15,7 +15,6 @@ Anyways, thanks for checking my program out, and I'm working on more simple game
 
 
 
-
 char square[10] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
 void gameBoard();
 int checkWinner();
@@ -24,6 +23,9 @@ int scoreB = 0;
 int z;
 bool overallwin(int, int, int);
 int main() // main function 
+{
+cout << "Fight me, you must, and lose, you shall" << endl;
+
 {
 	int i;
 	int j;
@@ -45,6 +47,7 @@ int main() // main function
 		}
 		player = 1, i, choice;
 		system("cls");
+	}
 	}
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
 	if (z == 3) // if player's choice was best out of 3 
