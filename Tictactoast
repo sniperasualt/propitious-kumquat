@@ -602,7 +602,7 @@ void showGame(char mt[l][c], short op)
 
 	cout << "General Public License v3 \n";
 
-	cout << "Programmer: Romulo Sorato\n" << endl;
+	cout << "Programmer: The Traganation squad" << endl;
 
 	if (op == 1)
 
