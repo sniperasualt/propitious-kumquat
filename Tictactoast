@@ -748,7 +748,7 @@ bool gameOver(char mt[l][c], short op, short &cont_p1, short &cont_p2, short &co
 
 			cont_p1++;
 
-			cout << "Player 1 wins!" << endl;
+			cout << "GG thats g8 m8 8/8" << endl;
 
 			if (op == 1)
 
@@ -790,7 +790,7 @@ bool gameOver(char mt[l][c], short op, short &cont_p1, short &cont_p2, short &co
 
 			{
 
-				cout << "CPU wins!" << endl;
+				cout << "Git wrecked scrub!" << endl;
 
 				cont_cpu++;
 
@@ -808,7 +808,7 @@ bool gameOver(char mt[l][c], short op, short &cont_p1, short &cont_p2, short &co
 
 	{
 
-		cout << "We tied!\n" << endl;
+		cout << "We tied, homes!\n" << endl;
 
 		if (op == 1)
 
