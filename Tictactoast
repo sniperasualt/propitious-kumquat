@@ -1194,5 +1194,3 @@ string changeName2()
 
 	return name2;
 }
-	
-
